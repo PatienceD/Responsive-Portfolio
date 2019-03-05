@@ -211,37 +211,39 @@ body {
   }
 
   @media screen and (max-width: 640px){
-   #masthead {
-       position: static;
-   }
-
-   #logo, nav {
-       width: 100%;
-       text-align: center;
-   }
-
-   .auth-image, .work, .contact-form {
-       width: 100%;
-   }
-
-   p {
-       display: inline-block;
-   }
+    #masthead {
+        position: static;
+    }
+ 
+    #logo, nav {
+        width: 100%;
+        text-align: center;
+    }
+ 
+    .auth-image, .work, .contact-form {
+        width: 100%;
+    }
+ 
+    p {
+        display: inline-block;
+    }
+ 
+    .main-section {
+        width: 100%;
+    }
 
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     .work {
-        width: 45%;
+        width: 100%;
       }
 
     .auth-image {
-        width: 40%;
+        width: 100%;
     }
   }
 
   @media screen and (max-width: 980px) {
-      .main-section {
-          width: 60%;
-      }
-  }
+
+}
