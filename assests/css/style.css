@@ -117,7 +117,7 @@ body {
   
   #main-container {
     padding-top: 20px;
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px); 
   }
   
   .main-section {
@@ -147,6 +147,11 @@ body {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
+  }
+
+  img{
+    width: 274px;
+    height: 205.5px;
   }
   
   .work h3 {
